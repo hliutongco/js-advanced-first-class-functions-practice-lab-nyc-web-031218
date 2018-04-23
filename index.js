@@ -37,7 +37,6 @@ function totalRevenue(drivers) {
   return revenue.reduce((sum, currentValue) => sum + currentValue);
 }
 
-function averageRevenue(drivers) {
-  totalRevenue = totalRevenue(drivers)
-  return totalRevenue / drivers.length
+function averageRevenue(drivers) { 
+  return totalRevenue(drivers) / drivers.length
 }
